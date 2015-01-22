@@ -10,6 +10,7 @@ public class AllRows{
                               FROM Account Where Isdeleted = TRUE  ALL ROWS];
         System.debug('hello');
 		System.debug('hello');
+		// hello
 		
 		
         return a;
