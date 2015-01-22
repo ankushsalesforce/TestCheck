@@ -9,6 +9,9 @@ public class AllRows{
          List<Account> a=  [Select Name
                               FROM Account Where Isdeleted = TRUE  ALL ROWS];
         System.debug('hello');
+		System.debug('hello');
+		
+		
         return a;
       }
   }
